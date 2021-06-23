@@ -1,0 +1,24 @@
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\CapaEntidades\obj\Debug\CapaEntidades.csprojAssemblyReference.cache
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\CapaEntidades\obj\Debug\CapaEntidades.pdb
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\CapaEntidades\obj\Debug\CapaEntidades.csprojAssemblyReference.cache
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\CapaEntidades\obj\Debug\CapaEntidades.pdb
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\CapaEntidades\obj\Debug\CapaEntidades.csproj.AssemblyReference.cache
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\CapaEntidades\obj\Debug\CapaEntidades.pdb
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\CapaEntidades\obj\Debug\CapaEntidades.csprojAssemblyReference.cache
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\CapaEntidades\obj\Debug\CapaEntidades.pdb

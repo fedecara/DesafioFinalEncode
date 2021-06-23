@@ -1,0 +1,250 @@
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\Desafio.dll.config
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\Desafio.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\Desafio.pdb
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\csc.exe
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\csc.exe.config
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\csc.rsp
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\csi.exe
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\csi.rsp
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\System.AppContext.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\vbc.exe
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\vbc.exe.config
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\vbc.rsp
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\VBCSCompiler.exe
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\obj\Debug\Desafio.csprojAssemblyReference.cache
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\obj\Debug\Desafio.csproj.CoreCompileInputs.cache
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\obj\Debug\Desafio.csproj.CopyComplete
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\obj\Debug\Desafio.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\obj\Debug\Desafio.pdb
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\CapaEntidades.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\CapaNegocio.dll
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\CapaEntidades.pdb
+C:\Users\lpereyra\Desktop\DesafioEncode\Desafio\Desafio\bin\CapaNegocio.pdb
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\Desafio.dll.config
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\Desafio.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\Desafio.pdb
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\csc.exe
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\csc.exe.config
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\csc.rsp
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\csi.exe
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\csi.rsp
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\System.AppContext.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\vbc.exe
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\vbc.exe.config
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\vbc.rsp
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\VBCSCompiler.exe
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\CapaEntidades.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\CapaNegocio.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\CapaEntidades.pdb
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\CapaNegocio.pdb
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\obj\Debug\Desafio.csproj.AssemblyReference.cache
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\obj\Debug\Desafio.csproj.CoreCompileInputs.cache
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\obj\Debug\Desafio.csproj.CopyComplete
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\obj\Debug\Desafio.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\obj\Debug\Desafio.pdb
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\CapaDatos.dll
+C:\Users\fedec\OneDrive\Documentos\GitHub\desktop-tutorial\Desafio\bin\CapaDatos.pdb
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\Desafio.dll.config
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\Desafio.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\Desafio.pdb
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\csc.exe
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\csc.exe.config
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\csc.rsp
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\csi.exe
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\csi.rsp
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\System.AppContext.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\vbc.exe
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\vbc.exe.config
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\vbc.rsp
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\VBCSCompiler.exe
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\CapaEntidades.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\CapaNegocio.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\CapaDatos.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\CapaEntidades.pdb
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\CapaNegocio.pdb
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\bin\CapaDatos.pdb
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\obj\Debug\Desafio.csprojAssemblyReference.cache
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\obj\Debug\Desafio.csproj.CoreCompileInputs.cache
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\obj\Debug\Desafio.csproj.CopyComplete
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\obj\Debug\Desafio.dll
+C:\Users\lpereyra\Desktop\Desafio\desktop-tutorial-main\Desafio\obj\Debug\Desafio.pdb
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\Desafio.dll.config
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\Desafio.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\Desafio.pdb
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\csc.exe
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\csc.exe.config
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\csc.rsp
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\csi.exe
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\csi.rsp
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.AppContext.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\vbc.exe
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\vbc.exe.config
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\vbc.rsp
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\VBCSCompiler.exe
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaEntidades.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaNegocio.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaDatos.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaEntidades.pdb
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaNegocio.pdb
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaDatos.pdb
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\obj\Debug\Desafio.csproj.AssemblyReference.cache
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\obj\Debug\Desafio.csproj.CoreCompileInputs.cache
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\obj\Debug\Desafio.csproj.CopyComplete
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\obj\Debug\Desafio.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)\desktop-tutorial-main\Desafio\obj\Debug\Desafio.pdb
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\Desafio.dll.config
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\Desafio.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\Desafio.pdb
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\csc.exe
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\csc.exe.config
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\csc.rsp
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\csi.exe
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\csi.rsp
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.AppContext.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\vbc.exe
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\vbc.exe.config
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\vbc.rsp
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\VBCSCompiler.exe
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaEntidades.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaNegocio.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaDatos.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaEntidades.pdb
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaNegocio.pdb
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaDatos.pdb
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\obj\Debug\Desafio.csprojAssemblyReference.cache
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\obj\Debug\Desafio.csproj.CoreCompileInputs.cache
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\obj\Debug\Desafio.csproj.CopyComplete
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\obj\Debug\Desafio.dll
+C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\obj\Debug\Desafio.pdb
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\Desafio.dll.config
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\Desafio.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\Desafio.pdb
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\csc.exe
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\csc.exe.config
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\csc.rsp
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\csi.exe
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\csi.rsp
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.AppContext.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\vbc.exe
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\vbc.exe.config
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\vbc.rsp
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\VBCSCompiler.exe
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaEntidades.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaNegocio.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaDatos.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaEntidades.pdb
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaNegocio.pdb
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\bin\CapaDatos.pdb
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\obj\Debug\Desafio.csproj.AssemblyReference.cache
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\obj\Debug\Desafio.csproj.CoreCompileInputs.cache
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\obj\Debug\Desafio.csproj.CopyComplete
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\obj\Debug\Desafio.dll
+C:\Users\fedec\OneDrive\Escritorio\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\Desafio\obj\Debug\Desafio.pdb
