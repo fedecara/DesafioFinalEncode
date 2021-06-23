@@ -43,3 +43,12 @@ C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-t
 C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaDatos\bin\Debug\CapaEntidades.dll
+C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaDatos\bin\Debug\CapaEntidades.pdb
+C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaDatos\obj\Debug\CapaDatos.pdb

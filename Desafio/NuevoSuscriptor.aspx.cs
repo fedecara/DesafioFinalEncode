@@ -51,21 +51,16 @@ namespace Desafio
         }
         protected void BtnAceptar_Click(object sender, EventArgs e)
         {
-            if (TxtNombre.Text != "" || TxtApellido.Text != "" || TxtDireccion.Text != "" || TxtEmail.Text != "" || TxtNombreUsuario.Text != "" || TxtPassword.Text != "" || TxtNumeroDocumento.Text != "" || TxtTelefono.Text != "")
+
+
+            if (TxtNumeroDocumento.Text != "")
             {
+                Suscriptor suscriptorNuevo1 = new Suscriptor();
+                suscriptorNuevo1.TipoDocumento = Convert.ToInt32(DropDownList1.SelectedItem.Value);
+                suscriptorNuevo1.NumeroDocumento = long.Parse(TxtNumeroDocumento.Text);
 
-                Suscriptor suscriptorNuevo = new Suscriptor();
-                suscriptorNuevo.Nombre = TxtNombre.Text;
-                suscriptorNuevo.Apellido = TxtApellido.Text;
-                suscriptorNuevo.TipoDocumento = Convert.ToInt32(DropDownList1.SelectedItem.Value);
-                suscriptorNuevo.NumeroDocumento = long.Parse(TxtNumeroDocumento.Text);
-                suscriptorNuevo.Direccion = TxtDireccion.Text;
-                suscriptorNuevo.Email = TxtEmail.Text;
-                suscriptorNuevo.Telefono = long.Parse(TxtTelefono.Text);
-                suscriptorNuevo.NombreUsuario = TxtNombreUsuario.Text;
-                suscriptorNuevo.Password = TxtPassword.Text;
 
-                if (sus.ExisteSuscriptor(suscriptorNuevo) == true)
+                if (sus.ExisteSuscriptor(suscriptorNuevo1) == true)
                 {
                     MessageBox.Show("Usuario Existente");
                     Response.Redirect("NuevoSuscriptor.aspx");
@@ -73,23 +68,42 @@ namespace Desafio
                 }
                 else
                 {
-
-                    if (sus.InsertarSuscriptor(suscriptorNuevo) == true)
+                    if (TxtNombre.Text != "" || TxtApellido.Text != "" || TxtDireccion.Text != "" || TxtEmail.Text != "" || TxtNombreUsuario.Text != "" || TxtPassword.Text != "" || TxtNumeroDocumento.Text != "" || TxtTelefono.Text != "" )
                     {
-                        MessageBox.Show("Se Agrego un nuevo Suscriptor " + " " + "Nombre de Usuario: " + suscriptorNuevo.NombreUsuario + "  " + "Password: " + suscriptorNuevo.Password);
-                        Response.Redirect("Suscripcion.aspx");
+                        Suscriptor suscriptorNuevo = new Suscriptor();
+                        suscriptorNuevo.Nombre = TxtNombre.Text;
+                        suscriptorNuevo.Apellido = TxtApellido.Text;
+                        suscriptorNuevo.TipoDocumento = Convert.ToInt32(DropDownList1.SelectedItem.Value);
+                        suscriptorNuevo.NumeroDocumento = long.Parse(TxtNumeroDocumento.Text);
+                        suscriptorNuevo.Direccion = TxtDireccion.Text;
+                        suscriptorNuevo.Email = TxtEmail.Text;
+                        suscriptorNuevo.Telefono = TxtTelefono.Text;
+                        suscriptorNuevo.NombreUsuario = TxtNombreUsuario.Text;
+                        suscriptorNuevo.Password = TxtPassword.Text;
+
+                        if (sus.InsertarSuscriptor(suscriptorNuevo) == true)
+                        {
+                            MessageBox.Show("Se Agrego un nuevo Suscriptor " + " " + "Nombre de Usuario: " + suscriptorNuevo.NombreUsuario + "  " + "Password: " + suscriptorNuevo.Password);
+                            Response.Redirect("Suscripcion.aspx");
+                        }
+                        else
+                        {
+                            MessageBox.Show("No se Pudo agregar un Nuevo Suscriptor");
+                            Response.Redirect("Suscripcion.aspx");
+
+                        }
                     }
-                    else
-                    {
-                        MessageBox.Show("No se Pudo agregar un Nuevo Suscriptor");
-                        Response.Redirect("Suscripcion.aspx");
-
+                    else{
+                        System.Windows.MessageBox.Show("Por favor Cargue todos los campos");
                     }
                 }
             }
-            else{
+            else
+            {
                 System.Windows.MessageBox.Show("Por favor Cargue todos los campos");
             }
+
+
 
         }
     }

@@ -40,7 +40,7 @@ namespace CapaDatos
                 cmd.Parameters["@TipoDocumento"].Value = sus.TipoDocumento;
                 cmd.Parameters.Add(new SqlParameter("@Direccion", SqlDbType.VarChar, 100));
                 cmd.Parameters["@Direccion"].Value = sus.Direccion;
-                cmd.Parameters.Add(new SqlParameter("@Telefono", SqlDbType.BigInt, 100));
+                cmd.Parameters.Add(new SqlParameter("@Telefono", SqlDbType.VarChar, 100));
                 cmd.Parameters["@Telefono"].Value = sus.Telefono;
                 cmd.Parameters.Add(new SqlParameter("@Email", SqlDbType.VarChar, 100));
                 cmd.Parameters["@Email"].Value = sus.Email;
@@ -116,7 +116,7 @@ namespace CapaDatos
                 cmd.Parameters["@Apellido"].Value = sus.Apellido;
                 cmd.Parameters.Add(new SqlParameter("@Direccion", SqlDbType.VarChar, 100));
                 cmd.Parameters["@Direccion"].Value = sus.Direccion;
-                cmd.Parameters.Add(new SqlParameter("@Telefono", SqlDbType.BigInt, 100));
+                cmd.Parameters.Add(new SqlParameter("@Telefono", SqlDbType.VarChar, 100));
                 cmd.Parameters["@Telefono"].Value = sus.Telefono;
                 cmd.Parameters.Add(new SqlParameter("@Email", SqlDbType.VarChar, 100));
                 cmd.Parameters["@Email"].Value = sus.Email;
@@ -176,7 +176,7 @@ namespace CapaDatos
                     SuscriptorBD.Apellido = Convert.ToString(dtr["Apellido"]);
                     SuscriptorBD.Direccion = Convert.ToString(dtr["Direccion"]);
                     SuscriptorBD.Email = Convert.ToString(dtr["Email"]);
-                    SuscriptorBD.Telefono = (long)Convert.ToInt64(dtr["Telefono"]);
+                    SuscriptorBD.Telefono = Convert.ToString(dtr["Telefono"]);
                     SuscriptorBD.NombreUsuario = Convert.ToString(dtr["NombreUsuario"]);
                     SuscriptorBD.Password = Convert.ToString(dtr["Password"]);
                 }

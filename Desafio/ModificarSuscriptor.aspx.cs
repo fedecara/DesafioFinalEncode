@@ -51,7 +51,7 @@ namespace Desafio
             TxtApellido.Text = suscriptor.Apellido;
             TxtDireccion.Text = suscriptor.Direccion;
             TxtEmail.Text = suscriptor.Email;
-            TxtTelefono.Text = suscriptor.Telefono.ToString();
+            TxtTelefono.Text = suscriptor.Telefono;
             TxtNombreUsuario.Text = suscriptor.NombreUsuario;
             TxtPassword.Text = suscriptor.Password;
             HabilitarCampos();
@@ -83,7 +83,7 @@ namespace Desafio
         }
         protected void BtnAceptar_Click(object sender, EventArgs e)
         {
-            if (TxtNombre.Text != "" || TxtApellido.Text !="" || TxtDireccion.Text!="" || TxtEmail.Text!="" || TxtNombreUsuario.Text != "" || TxtPassword.Text != "")
+            if (TxtNombre.Text != "" || TxtApellido.Text !="" || TxtDireccion.Text!="" || TxtEmail.Text != "" || TxtNombreUsuario.Text != "" || TxtPassword.Text != "")
             {
 
                 try
@@ -94,7 +94,7 @@ namespace Desafio
                     suscriptor.Apellido = TxtApellido.Text;
                     suscriptor.Direccion = TxtDireccion.Text;
                     suscriptor.Email = TxtEmail.Text;
-                    suscriptor.Telefono = long.Parse(TxtTelefono.Text);
+                    suscriptor.Telefono = TxtTelefono.Text;
                     suscriptor.NombreUsuario = TxtNombreUsuario.Text;
                     suscriptor.Password = TxtPassword.Text;
 

@@ -14,7 +14,7 @@ namespace CapaEntidades
         public long NumeroDocumento { get; set; }
         public int TipoDocumento { get; set; }
         public string Direccion { get; set; }
-        public long Telefono { get; set; }
+        public String Telefono { get; set; }
         public String Email { get; set; }
         public String NombreUsuario { get; set; }
         public string Password { get; set; }

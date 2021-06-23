@@ -4,7 +4,8 @@ using System;
 using System.Collections.Generic;
 using System.Web.UI.WebControls;
 using System.Windows;
-using System.Windows.Forms;
+
+using Encode.Funciones;
 
 namespace Desafio
 {
@@ -119,7 +120,7 @@ namespace Desafio
             TxtApellido.Text = suscriptor.Apellido;
             TxtDireccion.Text = suscriptor.Direccion;
             TxtEmail.Text = suscriptor.Email;
-            TxtTelefono.Text = suscriptor.Telefono.ToString();
+            TxtTelefono.Text = suscriptor.Telefono;
             TxtNombreUsuario.Text = suscriptor.NombreUsuario;
             TxtPassword.Text = suscriptor.Password;
         }
@@ -151,11 +152,6 @@ namespace Desafio
         protected void BtnModificar_Click(object sender, EventArgs e)
         {
             Response.Redirect("ModificarSuscriptor.aspx?NumeroDocumento=" + TxtNumeroDocumento.Text + "&TipoDoc=" + DropDownList1.SelectedItem.Value);
-
-
-
-
-
         }
 
         protected void BtnAceptar_Click(object sender, EventArgs e)

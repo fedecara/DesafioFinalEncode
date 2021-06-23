@@ -22,3 +22,9 @@ C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-t
 C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
 C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\CapaEntidades\obj\Debug\CapaEntidades.dll
 C:\Users\lpereyra\Desktop\Desafio (1)-20210622T115234Z-001\Desafio (1)\desktop-tutorial-main\CapaEntidades\obj\Debug\CapaEntidades.pdb
+C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaEntidades\obj\Debug\CapaEntidades.csprojAssemblyReference.cache
+C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaEntidades\obj\Debug\CapaEntidades.pdb

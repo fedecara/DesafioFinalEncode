@@ -7,7 +7,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Suscripcion</title>
     <link rel="Stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" />
-    <
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <style>
         body {
@@ -37,6 +38,16 @@
             background-color: deepskyblue;
             margin-top: 2px;
         }
+
+        #BtnModificar {
+            background-color: dodgerblue;
+            margin-top: 2px;
+        }
+
+        #BtnDesencriptar {
+            background-color: dodgerblue;
+            margin-top: 2px;
+        }
     </style>
 </head>
 <body>
@@ -56,10 +67,10 @@
                 <div class="col">
                     <asp:Label ID="Label2" runat="server" Text="Numero de Documento"></asp:Label><br />
                     <asp:TextBox ID="TxtNumeroDocumento" type="number" runat="server" Height="30px" Width="140px" Minlenght="8" MaxLength="8" TabIndex="1">XXXXXXXX</asp:TextBox>
-                    
+
                 </div>
                 <div class="col">
-                    <asp:Button ID="BtnBuscar" runat="server" OnClick="btnBtnBuscar" Text="Buscar"  />
+                    <asp:Button ID="BtnBuscar" runat="server" OnClick="btnBtnBuscar" Text="Buscar" />
                     <asp:TextBox ID="ID" runat="server"></asp:TextBox>
 
                 </div>
@@ -104,6 +115,9 @@
                     <asp:TextBox ID="TxtPassword" Enabled="false" Type="password" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
                 </div>
                 <div class="col">
+                    <asp:Label ID="Label10" runat="server" Text="Password Encriptado"></asp:Label><br />
+                    <asp:TextBox ID="TextDesencriptar" Enabled="false" Type="password" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
+                    <asp:Button ID="BtnDesencriptar" runat="server" Text="Desencriptar" />
                 </div>
             </div>
 
