@@ -8,7 +8,7 @@ using CapaNegocio;
 using CapaEntidades;
 using Encode.Funciones;
 using System.Windows;
-
+using System.Windows.Forms;
 namespace Desafio
 {
     public partial class ModificarSuscriptor : System.Web.UI.Page
@@ -98,7 +98,7 @@ namespace Desafio
                     suscriptor.NombreUsuario = TxtNombreUsuario.Text;
                     suscriptor.Password = TxtPassword.Text;
 
-                    En
+                 
 
                     
                     MessageBoxButtons botones = MessageBoxButtons.OKCancel;
