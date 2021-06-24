@@ -52,7 +52,8 @@ namespace Desafio
         {
 
 
-            if (TxtNumeroDocumento.Text != "")
+            int digitos = (int)Math.Floor(Math.Log10(int.Parse(TxtNumeroDocumento.Text)) + 1);
+            if (digitos == 8)
             {
                 Suscriptor suscriptorNuevo1 = new Suscriptor();
                 suscriptorNuevo1.TipoDocumento = Convert.ToInt32(DropDownList1.SelectedItem.Value);
@@ -67,7 +68,8 @@ namespace Desafio
                 }
                 else
                 {
-                    if (TxtNombre.Text != "" || TxtApellido.Text != "" || TxtDireccion.Text != "" || TxtEmail.Text != "" || TxtNombreUsuario.Text != "" || TxtPassword.Text != "" || TxtNumeroDocumento.Text != "" || TxtTelefono.Text != "" )
+
+                    if (TxtNombre.Text != "" || TxtApellido.Text != "" || TxtDireccion.Text != "" || TxtEmail.Text != "" || TxtNombreUsuario.Text != "" || TxtPassword.Text != "" || TxtNumeroDocumento.Text != "" || TxtTelefono.Text != "")
                     {
                         Suscriptor suscriptorNuevo = new Suscriptor();
                         suscriptorNuevo.Nombre = TxtNombre.Text;
@@ -78,7 +80,7 @@ namespace Desafio
                         suscriptorNuevo.Email = TxtEmail.Text;
                         suscriptorNuevo.Telefono = TxtTelefono.Text;
                         suscriptorNuevo.NombreUsuario = TxtNombreUsuario.Text;
-                        suscriptorNuevo.Password = Encriptar.EncriptarPassword(TxtPassword.Text,key);
+                        suscriptorNuevo.Password = Encriptar.EncriptarPassword(TxtPassword.Text, key);
 
                         if (sus.InsertarSuscriptor(suscriptorNuevo) == true)
                         {
@@ -91,17 +93,19 @@ namespace Desafio
                             Response.Redirect("Suscripcion.aspx");
 
                         }
+
                     }
-                    else{
-                        System.Windows.MessageBox.Show("Por favor Cargue todos los campos");
-                    }
+
                 }
+
+
+               
+
             }
             else
             {
-                System.Windows.MessageBox.Show("Por favor Cargue todos los campos");
+                System.Windows.MessageBox.Show("Por favor coloque correctamente su Nro de Documento");
             }
-
 
 
         }

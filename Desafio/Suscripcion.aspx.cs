@@ -7,17 +7,22 @@ using System.Windows;
 using System.Windows.Forms;
 using Encode.Funciones;
 using static Desafio.Encriptar;
+using MessageBox = Encode.Funciones.MessageBox;
+
 namespace Desafio
 {
     public partial class Suscripcion : System.Web.UI.Page
     {
         SuscriptorNegocio sus = new SuscriptorNegocio();
         Suscriptor suscriptor = new Suscriptor();
-        
-        string key="ABCabc123";
+
+        string key = "ABCabc123";
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            Label10.Visible = false;
+            TxtDesencriptar.Visible = false;
+            BtnDesencriptar.Visible = false;
             BtnModificar.Visible = false;
             ID.Visible = false;
             if (!IsPostBack)
@@ -37,53 +42,63 @@ namespace Desafio
         }
         protected void btnBtnBuscar(object sender, EventArgs e)
         {
-            if (TxtNumeroDocumento.Text != "")
+            if (String.IsNullOrEmpty(TxtNumeroDocumento.Text) != true)
             {
-                int TipoDocumento = Convert.ToInt32(DropDownList1.SelectedItem.Value);
-                long NumeroDocumento = long.Parse(TxtNumeroDocumento.Text);
-
-                suscriptor = sus.ConsultarSuscriptor(TipoDocumento, NumeroDocumento);
-
-                if (suscriptor.Nombre == null)
+                int digitos = (int)Math.Floor(Math.Log10(int.Parse(TxtNumeroDocumento.Text)) + 1);
+                if (digitos == 8)
                 {
-                    MessageBoxButtons botones = MessageBoxButtons.OKCancel;
-                    DialogResult dr = System.Windows.Forms.MessageBox.Show("No se encontro Suscriptor... ¿desea darlo de alta? ", "", botones, MessageBoxIcon.Question);
+                    int TipoDocumento = Convert.ToInt32(DropDownList1.SelectedItem.Value);
+                    long NumeroDocumento = long.Parse(TxtNumeroDocumento.Text);
 
-                    if (dr == DialogResult.OK)
+                    suscriptor = sus.ConsultarSuscriptor(TipoDocumento, NumeroDocumento);
+
+                    if (suscriptor.Nombre == null)
                     {
-                        Response.Redirect("NuevoSuscriptor.aspx");
+                        MessageBoxButtons botones = MessageBoxButtons.OKCancel;
+                        DialogResult dr = System.Windows.Forms.MessageBox.Show("No se encontro Suscriptor... ¿desea darlo de alta? ", "", botones, MessageBoxIcon.Question);
+
+                        if (dr == DialogResult.OK)
+                        {
+                            Response.Redirect("NuevoSuscriptor.aspx");
+                        }
+                        else
+                        {
+
+                            Response.Redirect("Suscripcion.aspx");
+                        }
                     }
+
+
                     else
                     {
-                        System.Windows.MessageBox.Show("Se cancelo el alta del Suscriptor");
-                        Response.Redirect("Suscripcion.aspx");
+                        System.Windows.MessageBox.Show("Suscriptor Existente");
+                        if (sus.ExisteSuscripcion(suscriptor) == true)
+                        {
+                            System.Windows.MessageBox.Show("Se Tiene Suscripcion Vigente");
+                            Response.Redirect("Suscripcion.aspx");
+
+
+                        }
+                        else
+                        {
+
+                            System.Windows.MessageBox.Show("No tiene Suscripcion vigente");
+
+                            CargarCampos();
+
+
+                        }
                     }
                 }
-
-
                 else
                 {
-                    System.Windows.MessageBox.Show("Suscriptor Existente");
-                    if (sus.ExisteSuscripcion(suscriptor) == true)
-                    {
-                        System.Windows.MessageBox.Show("Se Tiene Suscripcion Vigente");
-                        Response.Redirect("Suscripcion.aspx");
+                    System.Windows.MessageBox.Show("Por favor colque el numero de documento correctamente");
+                    Response.Redirect("Suscripcion.aspx");
 
-
-                    }
-                    else
-                    {
-
-                        System.Windows.MessageBox.Show("No tiene Suscripcion vigente");
-                        CargarCampos();
-                        BtnModificar.Visible = true;
-
-                    }
                 }
             }
-            else
-            {
-                System.Windows.MessageBox.Show("Por favor cargue los campos requeridos");
+            else{
+                System.Windows.MessageBox.Show("Por favor cargue los campos");
                 Response.Redirect("Suscripcion.aspx");
 
             }
@@ -115,6 +130,10 @@ namespace Desafio
 
         public void CargarCampos()
         {
+            BtnModificar.Visible = true;
+            Label10.Visible = true;
+            TxtDesencriptar.Visible = true;
+            BtnDesencriptar.Visible = true;
             ID.Text = suscriptor.IdSuscriptor.ToString();
             TxtNombre.Text = suscriptor.Nombre;
             TxtApellido.Text = suscriptor.Apellido;
@@ -195,7 +214,11 @@ namespace Desafio
 
         protected void BtnNuevo_Click(object sender, EventArgs e)
         {
-            Response.Redirect("NuevoSuscriptor.aspx");
+            if (TxtNumeroDocumento.Text == "")
+            {
+                Response.Redirect("NuevoSuscriptor.aspx");
+            }
+
 
 
 
@@ -204,10 +227,37 @@ namespace Desafio
 
         protected void BtnDesencriptar_Click(object sender, EventArgs e)
         {
+
+            int TipoDocumento = Convert.ToInt32(DropDownList1.SelectedItem.Value);
+            long NumeroDocumento = long.Parse(TxtNumeroDocumento.Text);
+
+            suscriptor = sus.ConsultarSuscriptor(TipoDocumento, NumeroDocumento);
+
+            CargarCampos();
             TxtDesencriptar.Text = DesencriptarPassword(suscriptor.Password, key);
 
 
 
+        }
+
+
+        private bool validarDatos()
+        {
+            if (String.IsNullOrEmpty(TxtNombre.Text) == true ||
+            String.IsNullOrEmpty(TxtApellido.Text) == true ||
+            String.IsNullOrEmpty(TxtTelefono.Text) == true ||
+            String.IsNullOrEmpty(TxtEmail.Text) == true ||
+            String.IsNullOrEmpty(TxtPassword.Text) == true ||
+            String.IsNullOrEmpty(TxtNombreUsuario.Text) == true ||
+            String.IsNullOrEmpty(TxtNumeroDocumento.Text) == true)
+            {
+
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
     }
 

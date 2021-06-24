@@ -64,7 +64,7 @@ namespace Desafio
                 des.Mode = CipherMode.ECB;
 
                 buff = ASCIIEncoding.ASCII.GetBytes(Password);
-                stringEncripted = Convert.ToBase64String(des.CreateDecryptor().TransformFinalBlock(buff, 0, buff.Length));
+                stringEncripted = Convert.ToBase64String(des.CreateEncryptor().TransformFinalBlock(buff, 0, buff.Length));
 
 
                 return stringEncripted;

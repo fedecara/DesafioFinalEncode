@@ -22,7 +22,11 @@
             margin-top: 2px;
         }
 
-        #BtnAceptar {
+       #BtnAceptar {
+            padding: .375rem .75rem;
+            border-radius: .25rem;
+            color: #fff;
+            transition: background-color .15s ease-in-out;
             background-color: forestgreen;
             margin-top: 2px;
         }
@@ -71,7 +75,7 @@
                 <p>Datos Suscriptor</p>
                 <div class="col">
                     <asp:Label ID="Label3" runat="server" Text="Nombre"></asp:Label><br />
-                    <asp:TextBox ID="TxtNombre" Enabled="false" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
+                    <asp:TextBox ID="TxtNombre" Enabled="false" type="text" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
                     <asp:Label ID="Label5" runat="server" Text="Direccion"></asp:Label><br />
                     <asp:TextBox ID="TxtDireccion" Enabled="false" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
                     <asp:Label ID="Label6" runat="server" Text="Telefono"></asp:Label><br />
@@ -79,9 +83,9 @@
                 </div>
                 <div class="col">
                     <asp:Label ID="Label4" runat="server" Text="Apellido"></asp:Label><br />
-                    <asp:TextBox ID="TxtApellido" Enabled="false" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
+                    <asp:TextBox ID="TxtApellido" Enabled="false" type="text" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
                     <asp:Label ID="Label7" runat="server" Text="Email"></asp:Label><br />
-                    <asp:TextBox ID="TxtEmail" Enabled="false" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
+                    <asp:TextBox ID="TxtEmail" Enabled="false" type="text" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
 
                 </div>
                 <div class="col">
@@ -94,14 +98,14 @@
             <div class="row" id="Login">
                 <div class="col">
                     <asp:Label ID="Label8" runat="server" Text="Nombre de Usuario"></asp:Label><br />
-                    <asp:TextBox ID="TxtNombreUsuario" Enabled="false" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
+                    <asp:TextBox ID="TxtNombreUsuario" type="text" Enabled="false" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
                     <asp:Button ID="BtnAceptar" runat="server" Text="Aceptar" OnClick="BtnAceptar_Click"  />
                     
                     
                 </div>
                 <div class="col">
                     <asp:Label ID="Label9" runat="server" Text="Password"></asp:Label><br />
-                    <asp:TextBox ID="TxtPassword" Enabled="false" Type="password" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
+                    <asp:TextBox ID="TxtPassword"  Enabled="false" Type="password" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
                 </div>
                 <div class="col">
                 </div>

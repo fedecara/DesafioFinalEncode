@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,8 +10,10 @@ namespace CapaEntidades
     public class Suscriptor
     {
         public int IdSuscriptor { get; set; }
+
         public String Nombre { get; set; }
         public String Apellido { get; set; }
+
         public long NumeroDocumento { get; set; }
         public int TipoDocumento { get; set; }
         public string Direccion { get; set; }

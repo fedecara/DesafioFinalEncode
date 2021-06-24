@@ -12,7 +12,6 @@
 
     <style>
         body {
-            background-color: #F2F3F4
         }
 
         label {
@@ -20,33 +19,74 @@
         }
 
         #BtnBuscar {
+            padding: .375rem .75rem;
+            border-radius: .25rem;
+            color: #fff;
+            transition: background-color .15s ease-in-out;
+            margin-top: 2px;
             background-color: forestgreen;
             margin-top: 2px;
         }
 
         #BtnAceptar {
+            padding: .375rem .75rem;
+            border-radius: .25rem;
+            color: #fff;
+            transition: background-color .15s ease-in-out;
             background-color: forestgreen;
             margin-top: 2px;
         }
 
         #BtnModificar {
+            padding: .375rem .75rem;
+            border-radius: .25rem;
+            color: #fff;
+            transition: background-color .15s ease-in-out;
+            margin-top: 2px;
             background-color: dodgerblue;
             margin-top: 2px;
         }
 
         #BtnNuevo {
+            padding: .375rem .75rem;
+            border-radius: .25rem;
+            color: #fff;
+            transition: background-color .15s ease-in-out;
+            margin-top: 2px;
             background-color: deepskyblue;
             margin-top: 2px;
         }
 
         #BtnModificar {
+            padding: .375rem .75rem;
+            border-radius: .25rem;
+            color: #fff;
+            transition: background-color .15s ease-in-out;
+            margin-top: 2px;
             background-color: dodgerblue;
             margin-top: 2px;
         }
 
         #BtnDesencriptar {
+            padding: .375rem .75rem;
+            border-radius: .25rem;
+            color: #fff;
+            transition: background-color .15s ease-in-out;
+            margin-top: 2px;
             background-color: dodgerblue;
             margin-top: 2px;
+            margin-left: 2px;
+        }
+
+        #BtnCancelar {
+            padding: .375rem .75rem;
+            border-radius: .25rem;
+            color: #fff;
+            transition: background-color .15s ease-in-out;
+            margin-top: 2px;
+            background-color: red;
+            margin-top: 2px;
+            margin-left: 2px;
         }
     </style>
 </head>
@@ -66,7 +106,7 @@
                 </div>
                 <div class="col">
                     <asp:Label ID="Label2" runat="server" Text="Numero de Documento"></asp:Label><br />
-                    <asp:TextBox ID="TxtNumeroDocumento" type="number" runat="server" Height="30px" Width="140px" Minlenght="8" MaxLength="8" TabIndex="1">XXXXXXXX</asp:TextBox>
+                    <asp:TextBox ID="TxtNumeroDocumento" type="number" runat="server" Height="30px" Width="140px" placeholder="XXXXXXXX" TabIndex="1" ></asp:TextBox>
 
                 </div>
                 <div class="col">
@@ -82,7 +122,7 @@
                 <p>Datos Suscriptor</p>
                 <div class="col">
                     <asp:Label ID="Label3" runat="server" Text="Nombre"></asp:Label><br />
-                    <asp:TextBox ID="TxtNombre" Enabled="false" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
+                    <asp:TextBox ID="TxtNombre" type="text" Enabled="false" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
                     <asp:Label ID="Label5" runat="server" Text="Direccion"></asp:Label><br />
                     <asp:TextBox ID="TxtDireccion" Enabled="false" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
                     <asp:Label ID="Label6" runat="server" Text="Telefono"></asp:Label><br />
@@ -92,7 +132,7 @@
                     <asp:Label ID="Label4" runat="server" Text="Apellido"></asp:Label><br />
                     <asp:TextBox ID="TxtApellido" Enabled="false" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
                     <asp:Label ID="Label7" runat="server" Text="Email"></asp:Label><br />
-                    <asp:TextBox ID="TxtEmail" type="emailAd" Enabled="false" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
+                    <asp:TextBox ID="TxtEmail" type="text" Enabled="false" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
 
                 </div>
                 <div class="col">
@@ -116,7 +156,7 @@
                 </div>
                 <div class="col">
                     <asp:Label ID="Label10" runat="server" Text="Password Encriptado"></asp:Label><br />
-                    <asp:TextBox ID="TxtDesencriptar" Enabled="false" Type="password" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
+                    <asp:TextBox ID="TxtDesencriptar" Enabled="false" runat="server" Height="30px" Width="140px"></asp:TextBox>
                     <asp:Button ID="BtnDesencriptar" runat="server" Text="Desencriptar" OnClick="BtnDesencriptar_Click" />
                 </div>
             </div>
