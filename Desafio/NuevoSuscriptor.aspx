@@ -54,7 +54,7 @@
                 </div>
                 <div class="col">
                     <asp:Label ID="Label2" runat="server" Text="Numero de Documento"></asp:Label><br />
-                    <asp:TextBox ID="TxtNumeroDocumento" runat="server" Height="30px" Width="140px"></asp:TextBox>
+                    <asp:TextBox ID="TxtNumeroDocumento" type="number" runat="server" Height="30px" Width="140px"></asp:TextBox>
                 </div>
                 <div class="col">
                     <asp:Button ID="BtnBuscar" runat="server"  Text="Buscar" />

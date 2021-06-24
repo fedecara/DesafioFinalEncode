@@ -116,8 +116,8 @@
                 </div>
                 <div class="col">
                     <asp:Label ID="Label10" runat="server" Text="Password Encriptado"></asp:Label><br />
-                    <asp:TextBox ID="TextDesencriptar" Enabled="false" Type="password" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
-                    <asp:Button ID="BtnDesencriptar" runat="server" Text="Desencriptar" />
+                    <asp:TextBox ID="TxtDesencriptar" Enabled="false" Type="password" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
+                    <asp:Button ID="BtnDesencriptar" runat="server" Text="Desencriptar" OnClick="BtnDesencriptar_Click" />
                 </div>
             </div>
 

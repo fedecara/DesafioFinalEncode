@@ -52,3 +52,12 @@ C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaDatos\obj\Debug\CapaDa
 C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
 C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaDatos\bin\Debug\CapaEntidades.dll
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaDatos\bin\Debug\CapaEntidades.pdb
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaDatos\obj\Debug\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaDatos\obj\Debug\CapaDatos.pdb

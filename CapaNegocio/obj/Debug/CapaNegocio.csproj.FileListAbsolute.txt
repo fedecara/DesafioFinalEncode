@@ -64,3 +64,14 @@ C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaNegocio\obj\Debug\Capa
 C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
 C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaNegocio\obj\Debug\CapaNegocio.dll
 C:\Users\lpereyra\Documents\GitHub\DesafioFinalEncode\CapaNegocio\obj\Debug\CapaNegocio.pdb
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaNegocio\bin\Debug\CapaEntidades.dll
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaNegocio\bin\Debug\CapaEntidades.pdb
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\CapaNegocio\obj\Debug\CapaNegocio.pdb

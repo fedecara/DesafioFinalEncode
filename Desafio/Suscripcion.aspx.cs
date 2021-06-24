@@ -6,15 +6,15 @@ using System.Web.UI.WebControls;
 using System.Windows;
 using System.Windows.Forms;
 using Encode.Funciones;
-
+using static Desafio.Encriptar;
 namespace Desafio
 {
     public partial class Suscripcion : System.Web.UI.Page
     {
         SuscriptorNegocio sus = new SuscriptorNegocio();
         Suscriptor suscriptor = new Suscriptor();
-
-
+        
+        string key="ABCabc123";
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -123,6 +123,7 @@ namespace Desafio
             TxtTelefono.Text = suscriptor.Telefono;
             TxtNombreUsuario.Text = suscriptor.NombreUsuario;
             TxtPassword.Text = suscriptor.Password;
+            TxtDesencriptar.Text = suscriptor.Password;
         }
 
         public void HabilitarCampos()
@@ -201,6 +202,13 @@ namespace Desafio
 
         }
 
+        protected void BtnDesencriptar_Click(object sender, EventArgs e)
+        {
+            TxtDesencriptar.Text = DesencriptarPassword(suscriptor.Password, key);
+
+
+
+        }
     }
 
 

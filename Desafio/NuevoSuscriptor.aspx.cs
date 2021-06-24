@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
 using System.Web.UI.WebControls;
 using CapaNegocio;
 using CapaEntidades;
 using System.Windows;
+
 namespace Desafio
 {
     public partial class NuevoSuscriptor : System.Web.UI.Page
@@ -14,6 +12,7 @@ namespace Desafio
         SuscriptorNegocio sus = new SuscriptorNegocio();
         Suscriptor suscriptor = new Suscriptor();
 
+        string key = "ABCabc123";
         protected void Page_Load(object sender, EventArgs e)
         {
             HabilitarCampos();
@@ -79,7 +78,7 @@ namespace Desafio
                         suscriptorNuevo.Email = TxtEmail.Text;
                         suscriptorNuevo.Telefono = TxtTelefono.Text;
                         suscriptorNuevo.NombreUsuario = TxtNombreUsuario.Text;
-                        suscriptorNuevo.Password = TxtPassword.Text;
+                        suscriptorNuevo.Password = Encriptar.EncriptarPassword(TxtPassword.Text,key);
 
                         if (sus.InsertarSuscriptor(suscriptorNuevo) == true)
                         {
