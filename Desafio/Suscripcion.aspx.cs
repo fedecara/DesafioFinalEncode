@@ -7,7 +7,8 @@ using System.Windows;
 using System.Windows.Forms;
 using Encode.Funciones;
 using static Desafio.Encriptar;
-using MessageBox = Encode.Funciones.MessageBox;
+using Message = Encode.Funciones.MessageBox;
+
 
 namespace Desafio
 {
@@ -25,6 +26,7 @@ namespace Desafio
             BtnDesencriptar.Visible = false;
             BtnModificar.Visible = false;
             ID.Visible = false;
+            
             if (!IsPostBack)
             {
                 DisplayData();
@@ -71,11 +73,13 @@ namespace Desafio
 
                     else
                     {
-                        System.Windows.MessageBox.Show("Suscriptor Existente");
+                        
                         if (sus.ExisteSuscripcion(suscriptor) == true)
                         {
-                            System.Windows.MessageBox.Show("Se Tiene Suscripcion Vigente");
-                            Response.Redirect("Suscripcion.aspx");
+                            Message.Show("Suscriptor Existente", "info","OK","Confirmar");
+                            LimpiarCampos();
+                            
+                            
 
 
                         }
@@ -83,7 +87,6 @@ namespace Desafio
                         {
 
                             System.Windows.MessageBox.Show("No tiene Suscripcion vigente");
-
                             CargarCampos();
 
 
@@ -92,6 +95,7 @@ namespace Desafio
                 }
                 else
                 {
+                    
                     System.Windows.MessageBox.Show("Por favor colque el numero de documento correctamente");
                     Response.Redirect("Suscripcion.aspx");
 
@@ -105,18 +109,10 @@ namespace Desafio
 
         }
 
-        //public void ValidarNroDocuemento()
-        //{
-        //    if (int.Parse(TxtNumeroDocumento.Text) == " " || TxtNumeroDocumento.Text not isNumber )
-        //    {
-
-        //    }
-
-        //}
-
+       
         public void LimpiarCampos()
         {
-
+            TxtNumeroDocumento.Text = "";
             TxtNombre.Text = "";
             TxtApellido.Text = "";
             TxtDireccion.Text = "";
@@ -240,7 +236,7 @@ namespace Desafio
 
         }
 
-
+     
         private bool validarDatos()
         {
             if (String.IsNullOrEmpty(TxtNombre.Text) == true ||
