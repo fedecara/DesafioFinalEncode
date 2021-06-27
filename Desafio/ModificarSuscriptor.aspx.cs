@@ -9,6 +9,7 @@ using CapaEntidades;
 using Encode.Funciones;
 using System.Windows;
 using System.Windows.Forms;
+using Message = Encode.Funciones.MessageBox;
 namespace Desafio
 {
     public partial class ModificarSuscriptor : System.Web.UI.Page
@@ -20,11 +21,7 @@ namespace Desafio
         {
 
 
-
-
             ID.Visible = false;
-
-
             if (!IsPostBack)
             {
                 DisplayData();
@@ -137,7 +134,7 @@ namespace Desafio
             }
             else
             {
-                System.Windows.MessageBox.Show("Por favor Cargue todos los campos");
+                Message.Show("Por favor cargue los campos", "error");
             }
         }
 

@@ -77,22 +77,15 @@ namespace Desafio
                         if (sus.ExisteSuscripcion(suscriptor) == true)
                         {
 
-                            Message.Show("El Suscriptor existe  en BD y tiene una Suscricion Existente", "info", "Suscripcion Existente");
+                            Message.Show("El Suscriptor existe  en BD y tiene una Suscricion Vigente", "info", "Suscripcion");
                             LimpiarCampos();
-
-
-
-
-
-
 
                         }
                         else
                         {
 
-                            System.Windows.MessageBox.Show("No tiene Suscripcion vigente");
+                            Message.Show("No tiene Suscripcion Vigente", "info", "Suscripcion");
                             CargarCampos();
-
 
                         }
                     }
@@ -100,16 +93,17 @@ namespace Desafio
                 else
                 {
 
-                  Message.ShowConfirmation("Por favor colque el numero de documento correctamente");
-
+                    Message.Show("Por favor colque el numero de documento correctamente", "error");
+                    LimpiarCampos();
 
 
                 }
             }
             else
             {
-                System.Windows.MessageBox.Show("Por favor cargue los campos");
-                Response.Redirect("Suscripcion.aspx");
+                Message.Show("Por favor cargue los campos", "error");
+
+                LimpiarCampos();
 
             }
 

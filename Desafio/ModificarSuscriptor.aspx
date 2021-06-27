@@ -9,8 +9,9 @@
     <link rel="Stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" />
 
     <style>
-        body {
-            background-color: #F2F3F4
+        #HomepageBody { background-image: url("/Img/Fondo.jpg" ); background-repeat:no-repeat; background-position:center; }
+        body{
+            margin-left:30px;
         }
 
         label {
@@ -38,11 +39,11 @@
 
         #BtnNuevo {
             background-color: deepskyblue;
-            margin-top: 2px;
+            margin-top: 10px;
         }
     </style>
 </head>
-<body>
+<body id="HomepageBody" >
     <h1>Suscripcion</h1>
     <h3>Modificar Datos de Suscriptor</h3>
 
@@ -110,6 +111,7 @@
                 <div class="col">
                 </div>
             </div>
+
 
 
         </form>

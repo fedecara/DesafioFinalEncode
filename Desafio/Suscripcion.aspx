@@ -11,11 +11,23 @@
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
     <style>
+        #HomepageBody {
+            background-image: url("/Img/Fondo.jpg" );
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
         body {
+            margin-left: 30px;
         }
 
         label {
-            font-weight: bold
+            font-weight: bold;
+        }
+
+        h1 {
+            text-shadow: 3px 3px 1px red;
+            text-align: center;
         }
 
         #BtnBuscar {
@@ -88,11 +100,14 @@
             margin-top: 2px;
             margin-left: 2px;
         }
+        #botones{
+            margin-top:10px;
+        }
     </style>
 </head>
-<body>
+<body id="HomepageBody">
     <h1>Suscripcion</h1>
-    <h3>Para Realizar la suscripcion complete los siguientes datos</h3>
+    <h5>Para Realizar la suscripcion complete los siguientes datos</h5>
     <div class="conteiner">
 
         <form id="formBuscar" runat="server" class="form-horizontal">
@@ -106,7 +121,7 @@
                 </div>
                 <div class="col">
                     <asp:Label ID="Label2" runat="server" Text="Numero de Documento"></asp:Label><br />
-                    <asp:TextBox ID="TxtNumeroDocumento" type="number" runat="server" Height="30px" Width="140px" placeholder="XXXXXXXX" TabIndex="1" ></asp:TextBox>
+                    <asp:TextBox ID="TxtNumeroDocumento" type="number" runat="server" Height="30px" Width="140px" placeholder="XXXXXXXX" TabIndex="1"></asp:TextBox>
 
                 </div>
                 <div class="col">
@@ -146,9 +161,7 @@
                 <div class="col">
                     <asp:Label ID="Label8" runat="server" Text="Nombre de Usuario"></asp:Label><br />
                     <asp:TextBox ID="TxtNombreUsuario" Enabled="false" runat="server" Height="30px" Width="140px"></asp:TextBox><br />
-                    <asp:Button ID="BtnAceptar" runat="server" Text="Aceptar" OnClick="BtnAceptar_Click" />
 
-                    <asp:Button ID="BtnCancelar" runat="server" Text="Cancelar" OnClick="BtnCancelar_Click" />
                 </div>
                 <div class="col">
                     <asp:Label ID="Label9" runat="server" Text="Password"></asp:Label><br />
@@ -160,7 +173,12 @@
                     <asp:Button ID="BtnDesencriptar" runat="server" Text="Desencriptar" OnClick="BtnDesencriptar_Click" />
                 </div>
             </div>
-
+            <div class="row " id="botones">
+                <div class="col">
+                    <asp:Button ID="BtnAceptar" runat="server" Text="Aceptar" OnClick="BtnAceptar_Click" />
+                    <asp:Button ID="BtnCancelar" runat="server" Text="Cancelar" OnClick="BtnCancelar_Click" />
+                </div>
+            </div>
 
         </form>
     </div>

@@ -87,6 +87,7 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Style.css" />
     <Content Include="Global.asax" />
+    <Content Include="Img\Fondo.jpg" />
     <Content Include="ModificarSuscriptor.aspx" />
     <Content Include="NuevoSuscriptor.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
