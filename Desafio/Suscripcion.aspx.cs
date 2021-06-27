@@ -8,7 +8,7 @@ using System.Windows.Forms;
 using Encode.Funciones;
 using static Desafio.Encriptar;
 using Message = Encode.Funciones.MessageBox;
-
+using System.Web.UI;
 
 namespace Desafio
 {
@@ -26,7 +26,7 @@ namespace Desafio
             BtnDesencriptar.Visible = false;
             BtnModificar.Visible = false;
             ID.Visible = false;
-            
+
             if (!IsPostBack)
             {
                 DisplayData();
@@ -73,13 +73,17 @@ namespace Desafio
 
                     else
                     {
-                        
+
                         if (sus.ExisteSuscripcion(suscriptor) == true)
                         {
-                            Message.Show("Suscriptor Existente", "info","OK","Confirmar");
+
+                            Message.Show("El Suscriptor existe  en BD y tiene una Suscricion Existente", "info", "Suscripcion Existente");
                             LimpiarCampos();
-                            
-                            
+
+
+
+
+
 
 
                         }
@@ -95,13 +99,15 @@ namespace Desafio
                 }
                 else
                 {
-                    
-                    System.Windows.MessageBox.Show("Por favor colque el numero de documento correctamente");
-                    Response.Redirect("Suscripcion.aspx");
+
+                  Message.ShowConfirmation("Por favor colque el numero de documento correctamente");
+
+
 
                 }
             }
-            else{
+            else
+            {
                 System.Windows.MessageBox.Show("Por favor cargue los campos");
                 Response.Redirect("Suscripcion.aspx");
 
@@ -109,7 +115,7 @@ namespace Desafio
 
         }
 
-       
+
         public void LimpiarCampos()
         {
             TxtNumeroDocumento.Text = "";
@@ -236,7 +242,7 @@ namespace Desafio
 
         }
 
-     
+
         private bool validarDatos()
         {
             if (String.IsNullOrEmpty(TxtNombre.Text) == true ||
@@ -254,6 +260,10 @@ namespace Desafio
             {
                 return true;
             }
+        }
+        public void Redireccion()
+        {
+            Response.Redirect("Suscripcion.aspx");
         }
     }
 

@@ -5,6 +5,7 @@ using System.Web;
 using System.Text;
 using System.Collections;
 using System.Web.UI;
+using System.Windows;
 
 namespace Encode.Funciones
 {
@@ -31,9 +32,14 @@ namespace Encode.Funciones
                     if (function != "")
                         script += ".then((value) => {" + function + "});";
                     else
+                    {
                         script += ";";
+                       
+                    }
                     ScriptManager.RegisterStartupScript(executingPage, executingPage.GetType(), Guid.NewGuid().ToString(), script, true);
+
                 }
+
             }
             else
             {
@@ -130,7 +136,7 @@ namespace Encode.Funciones
                         script += "Aceptar'";
 
                     script += ", value: 'confirm', visible: true}, cancel: { text: '";
-
+                    
                     if (cancelButtonText != "")
                         script += cancelButtonText + "'";
                     else
@@ -242,5 +248,8 @@ namespace Encode.Funciones
             ScriptManager.RegisterStartupScript(panel, panel.GetType(), Guid.NewGuid().ToString(), script, true);
         }
     }
+
+
+
 
 }
