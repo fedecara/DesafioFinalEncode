@@ -56,6 +56,8 @@ namespace Desafio
 
                     if (suscriptor.Nombre == null)
                     {
+
+
                         MessageBoxButtons botones = MessageBoxButtons.OKCancel;
                         DialogResult dr = System.Windows.Forms.MessageBox.Show("No se encontro Suscriptor... ¿desea darlo de alta? ", "", botones, MessageBoxIcon.Question);
 
@@ -65,7 +67,6 @@ namespace Desafio
                         }
                         else
                         {
-
                             Response.Redirect("Suscripcion.aspx");
                         }
                     }

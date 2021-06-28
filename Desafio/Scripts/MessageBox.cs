@@ -247,6 +247,8 @@ namespace Encode.Funciones
 
             ScriptManager.RegisterStartupScript(panel, panel.GetType(), Guid.NewGuid().ToString(), script, true);
         }
+
+    
     }
 
 

@@ -8,7 +8,7 @@
     <title>Suscripcion</title>
     <link rel="Stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" />
 
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\Desafio\Scripts\Sweet.js"></script>
 
     <style>
         #HomepageBody {
@@ -18,7 +18,13 @@
         }
 
         body {
-            margin-left: 30px;
+        
+            margin-left: 60px;
+            margin-right:60px;
+            margin-top:50px;
+            align-items: center;
+            justify-content: center;
+           
         }
 
         label {
@@ -100,8 +106,9 @@
             margin-top: 2px;
             margin-left: 2px;
         }
-        #botones{
-            margin-top:10px;
+
+        #botones {
+            margin-top: 10px;
         }
     </style>
 </head>

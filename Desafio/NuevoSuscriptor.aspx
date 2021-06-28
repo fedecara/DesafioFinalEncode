@@ -10,9 +10,17 @@
 
     <style>
         #HomepageBody { background-image: url("/Img/Fondo.jpg" ); background-repeat:no-repeat; background-position:center; }
-        body{
-            margin-left:30px;
+     
+        body {
+        
+            margin-left: 60px;
+            margin-right:60px;
+            margin-top:50px;
+            align-items: center;
+            justify-content: center;
+           
         }
+
         h1{
             text-align:center;
         }
