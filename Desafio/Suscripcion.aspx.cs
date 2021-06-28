@@ -7,7 +7,7 @@ using System.Windows;
 using System.Windows.Forms;
 using Encode.Funciones;
 using static Desafio.Encriptar;
-using Message = Encode.Funciones.MessageBox;
+using Messages = Encode.Funciones.MessageBox;
 using System.Web.UI;
 
 namespace Desafio
@@ -26,10 +26,12 @@ namespace Desafio
             BtnDesencriptar.Visible = false;
             BtnModificar.Visible = false;
             ID.Visible = false;
+            ListarSuscriptores();
 
             if (!IsPostBack)
             {
                 DisplayData();
+            
             }
         }
         private void DisplayData()
@@ -78,14 +80,14 @@ namespace Desafio
                         if (sus.ExisteSuscripcion(suscriptor) == true)
                         {
 
-                            Message.Show("El Suscriptor existe  en BD y tiene una Suscricion Vigente", "info", "Suscripcion");
+                            Messages.Show("El Suscriptor existe  en BD y tiene una Suscricion Vigente", "info", "Suscripcion");
                             LimpiarCampos();
 
                         }
                         else
                         {
 
-                            Message.Show("No tiene Suscripcion Vigente", "info", "Suscripcion");
+                            Messages.Show("No tiene Suscripcion Vigente", "info", "Suscripcion");
                             CargarCampos();
 
                         }
@@ -94,7 +96,7 @@ namespace Desafio
                 else
                 {
 
-                    Message.Show("Por favor colque el numero de documento correctamente", "error");
+                    Messages.Show("Por favor colque el numero de documento correctamente", "warning");
                     LimpiarCampos();
 
 
@@ -102,7 +104,7 @@ namespace Desafio
             }
             else
             {
-                Message.Show("Por favor cargue los campos", "error");
+                Messages.Show("Por favor cargue los campos", "error");
 
                 LimpiarCampos();
 
@@ -259,6 +261,20 @@ namespace Desafio
         public void Redireccion()
         {
             Response.Redirect("Suscripcion.aspx");
+        }
+
+        public static List<Suscriptor> ListarSuscriptores() {
+            SuscriptorNegocio sus = new SuscriptorNegocio();
+            List<Suscriptor> Lista = null;
+            try
+            {
+                Lista = sus.ListarSuscriptor();
+            }
+            catch
+            {
+                Lista = null;
+            }
+            return Lista;
         }
     }
 

@@ -40,5 +40,9 @@ namespace CapaNegocio
             return SuscriptorDatos.InsertarSuscripcion(sus, FechaAlta);
         }
 
+        public List<Suscriptor> ListarSuscriptor()
+        {
+            return SuscriptorDatos.ListarSuscriptor();
+        }
     }
 }

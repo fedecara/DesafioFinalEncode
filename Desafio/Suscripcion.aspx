@@ -18,13 +18,11 @@
         }
 
         body {
-        
             margin-left: 60px;
-            margin-right:60px;
-            margin-top:50px;
+            margin-right: 60px;
+            margin-top: 50px;
             align-items: center;
             justify-content: center;
-           
         }
 
         label {
@@ -188,6 +186,29 @@
             </div>
 
         </form>
+        <div class="box box-primary">
+            <div class="box-header">
+                <h3 class="box-title">Listado de Suscriptores</h3>
+
+            </div>
+
+            <div class="box-body table-responsive">
+                <table id="tbl_Suscriptores" class="table table-bordered">
+                    <thead>
+                        <tr>Id Suscriptor</tr>
+                        <tr>Nombre</tr>
+                        <tr>Apellido</tr>
+                        <tr>Numero Documento</tr>
+                        <tr>Fecha Alta</tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+
+
     </div>
 </body>
 </html>
