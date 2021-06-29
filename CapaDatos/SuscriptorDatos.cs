@@ -285,38 +285,21 @@ namespace CapaDatos
             return vexito;
         }
 
-        public List<CapaEntidades.Suscriptor> ListarSuscriptor()
+        public DataTable ListarSuscriptores()
         {
             CapaEntidades.Suscriptor SuscriptorBD = null;
-            CapaEntidades.Suscripcion SuscripcionBD = null;
-            List<Suscriptor> lista = new List<Suscriptor>();
             try
             {
                 SuscriptorBD = new CapaEntidades.Suscriptor();
-                SuscripcionBD = new CapaEntidades.Suscripcion();
-                SqlDataReader dtr;
+             
                 cmd.Connection = cnx;
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.CommandText = "proc_ListarSuscriptores";
-            
-                if (cnx.State == ConnectionState.Closed)
-                {
-                    cnx.Open();
-                }
-                dtr = cmd.ExecuteReader();
-                if (dtr.HasRows == true)
-                {
-                    dtr.Read();
-                    SuscriptorBD.IdSuscriptor = int.Parse(Convert.ToString(dtr["IdSuscriptor"]));
-                    SuscriptorBD.Nombre = Convert.ToString(dtr["Nombre"]);
-                    SuscriptorBD.Apellido = Convert.ToString(dtr["Apellido"]);
-                    SuscriptorBD.NumeroDocumento = int.Parse(Convert.ToString(dtr["NumeroDocumento"]));
-                    SuscripcionBD.FechaAlta = Convert.ToString(dtr["FechaAlta"]);
-                    lista.Add(SuscriptorBD);
-                 
-                }
-                cnx.Close();
-                cmd.Parameters.Clear();
+                DataTable tabla = new DataTable();
+
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(tabla);
+                return tabla;
 
             }
             catch (SqlException)
@@ -331,8 +314,8 @@ namespace CapaDatos
                 }
                 cmd.Parameters.Clear();
             }
-            return lista;
         }
+   
 
 
 

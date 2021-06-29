@@ -5,14 +5,13 @@ using System.Web;
 using System.Text;
 using System.Collections;
 using System.Web.UI;
-using System.Windows;
 
 namespace Encode.Funciones
 {
-    public sealed class MessageBox
+    public sealed class Message
     {
         private static Hashtable m_executingPages = new Hashtable();
-        private MessageBox() { }
+        private Message() { }
         public static void Show(string message, string type = "", string title = "", string confirmButtonText = "", string function = "")
         {
             // If this is the first time a page has called this method then
@@ -32,14 +31,9 @@ namespace Encode.Funciones
                     if (function != "")
                         script += ".then((value) => {" + function + "});";
                     else
-                    {
                         script += ";";
-                       
-                    }
                     ScriptManager.RegisterStartupScript(executingPage, executingPage.GetType(), Guid.NewGuid().ToString(), script, true);
-
                 }
-
             }
             else
             {
@@ -136,7 +130,7 @@ namespace Encode.Funciones
                         script += "Aceptar'";
 
                     script += ", value: 'confirm', visible: true}, cancel: { text: '";
-                    
+
                     if (cancelButtonText != "")
                         script += cancelButtonText + "'";
                     else
@@ -247,11 +241,6 @@ namespace Encode.Funciones
 
             ScriptManager.RegisterStartupScript(panel, panel.GetType(), Guid.NewGuid().ToString(), script, true);
         }
-
-    
     }
-
-
-
 
 }

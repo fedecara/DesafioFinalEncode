@@ -7,8 +7,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Suscripcion</title>
     <link rel="Stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="//cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
 
-    <script src="C:\Users\fedec\OneDrive\Escritorio\GitHub\DesafioFinalEncode\Desafio\Scripts\Sweet.js"></script>
+    <script type="text/javascript" src="//cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
 
     <style>
         #HomepageBody {
@@ -84,6 +85,28 @@
         }
 
         #BtnDesencriptar {
+            padding: .375rem .75rem;
+            border-radius: .25rem;
+            color: #fff;
+            transition: background-color .15s ease-in-out;
+            margin-top: 2px;
+            background-color: dodgerblue;
+            margin-top: 2px;
+            margin-left: 2px;
+        }
+
+        #BtnDetalle {
+            padding: .375rem .75rem;
+            border-radius: .25rem;
+            color: #fff;
+            transition: background-color .15s ease-in-out;
+            margin-top: 2px;
+            background-color: dodgerblue;
+            margin-top: 2px;
+            margin-left: 2px;
+        }
+
+        #BtnModificar1 {
             padding: .375rem .75rem;
             border-radius: .25rem;
             color: #fff;
@@ -178,36 +201,49 @@
                     <asp:Button ID="BtnDesencriptar" runat="server" Text="Desencriptar" OnClick="BtnDesencriptar_Click" />
                 </div>
             </div>
+
             <div class="row " id="botones">
                 <div class="col">
                     <asp:Button ID="BtnAceptar" runat="server" Text="Aceptar" OnClick="BtnAceptar_Click" />
                     <asp:Button ID="BtnCancelar" runat="server" Text="Cancelar" OnClick="BtnCancelar_Click" />
                 </div>
-            </div>
 
-        </form>
-        <div class="modal fade" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title">Modal title</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>One fine body&hellip;</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
+            </div>
+            <div class="col">
+                <h1>Listado de Suscripciones</h1>
+
+
+                <div class="table table-responsive">
+
+
+                    <asp:GridView ID="GrSuscriptor" runat="server" class="table table-striped table-bordered" Style="margin-right: 22px;" AllowPaging="True" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Height="294px" Width="631px">
+                        <Columns>
+                            <asp:BoundField DataField="Nombre" HeaderText="Nombre" SortExpression="Nombre" />
+                            <asp:BoundField DataField="Apellido" HeaderText="Apellido" SortExpression="Apellido" />
+                            <asp:BoundField DataField="NumeroDocumento" HeaderText="NumeroDocumento" SortExpression="NumeroDocumento" />
+                            <asp:TemplateField HeaderStyle-ForeColor="Black">
+                                <ItemTemplate>
+                                    <div class="form-group text-center">
+                                        <input type="submit" value="Editar" class="btn btn-primary" />
+                                        <input type="submit" value="Eliminar" class="btn btn-danger" />
+                                    </div>
+
+                                </ItemTemplate>
+                            </asp:TemplateField>
+                        </Columns>
+                    </asp:GridView>
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DesafioEncodeConnectionString %>" SelectCommand="proc_ListarSuscriptores" SelectCommandType="StoredProcedure"></asp:SqlDataSource>
                 </div>
-                <!-- /.modal-content -->
             </div>
-            <!-- /.modal-dialog -->
-        </div>
-        <!-- /.modal -->
-
-
+        </form>
     </div>
+
+    <script>
+        $(document).ready(function () {
+            $('#GrSuscriptor').DataTable();
+        });
+    </script>
 </body>
+
+
 </html>

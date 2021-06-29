@@ -5,9 +5,8 @@ using System.Collections.Generic;
 using System.Web.UI.WebControls;
 using System.Windows;
 using System.Windows.Forms;
-using Encode.Funciones;
 using static Desafio.Encriptar;
-using Messages = Encode.Funciones.MessageBox;
+using Messages = Encode.Funciones.Message;
 using System.Web.UI;
 
 namespace Desafio
@@ -26,14 +25,16 @@ namespace Desafio
             BtnDesencriptar.Visible = false;
             BtnModificar.Visible = false;
             ID.Visible = false;
-            ListarSuscriptores();
-            Messages.Show("Por favor colque el numero de documento correctamente", "warning");
+          
+           
             if (!IsPostBack)
             {
+               
                 DisplayData();
-            
+                
             }
         }
+        
         private void DisplayData()
         {
             List<ListItem> items = new List<ListItem>();
@@ -80,14 +81,14 @@ namespace Desafio
                         if (sus.ExisteSuscripcion(suscriptor) == true)
                         {
 
-                            Messages.ShowConfirmation("El Suscriptor existe  en BD y tiene una Suscricion Vigente", "info", "Suscripcion");
+                            Messages.Show("El Suscriptor existe  en BD y tiene una Suscricion Vigente", "info", "Suscripcion");
                             LimpiarCampos();
 
                         }
                         else
                         {
 
-                            Messages.ShowConfirmation("No tiene Suscripcion Vigente", "info", "Suscripcion");
+                            Messages.Show("No tiene Suscripcion Vigente", "info", "Suscripcion");
                             CargarCampos();
 
                         }
@@ -96,7 +97,7 @@ namespace Desafio
                 else
                 {
 
-                    Messages.ShowConfirmation("Por favor colque el numero de documento correctamente", "warning");
+                    Messages.Show("Por favor colque el numero de documento correctamente", "warning");
                     LimpiarCampos();
 
 
@@ -104,7 +105,7 @@ namespace Desafio
             }
             else
             {
-                Messages.ShowConfirmation("Por favor cargue los campos", "error");
+                Messages.Show("Por favor cargue los campos", "error");
 
                 LimpiarCampos();
 
@@ -263,19 +264,7 @@ namespace Desafio
             Response.Redirect("Suscripcion.aspx");
         }
 
-        public static List<Suscriptor> ListarSuscriptores() {
-            SuscriptorNegocio sus = new SuscriptorNegocio();
-            List<Suscriptor> Lista = null;
-            try
-            {
-                Lista = sus.ListarSuscriptor();
-            }
-            catch
-            {
-                Lista = null;
-            }
-            return Lista;
-        }
+       
     }
 
 
