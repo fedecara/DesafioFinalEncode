@@ -16,7 +16,7 @@ namespace Desafio
     {
         SuscriptorNegocio sus = new SuscriptorNegocio();
         Suscriptor suscriptor = new Suscriptor();
-
+       
         string key = "ABCabc123";
 
         protected void Page_Load(object sender, EventArgs e)
@@ -27,7 +27,7 @@ namespace Desafio
             BtnModificar.Visible = false;
             ID.Visible = false;
             ListarSuscriptores();
-
+            Messages.Show("Por favor colque el numero de documento correctamente", "warning");
             if (!IsPostBack)
             {
                 DisplayData();
@@ -80,14 +80,14 @@ namespace Desafio
                         if (sus.ExisteSuscripcion(suscriptor) == true)
                         {
 
-                            Messages.Show("El Suscriptor existe  en BD y tiene una Suscricion Vigente", "info", "Suscripcion");
+                            Messages.ShowConfirmation("El Suscriptor existe  en BD y tiene una Suscricion Vigente", "info", "Suscripcion");
                             LimpiarCampos();
 
                         }
                         else
                         {
 
-                            Messages.Show("No tiene Suscripcion Vigente", "info", "Suscripcion");
+                            Messages.ShowConfirmation("No tiene Suscripcion Vigente", "info", "Suscripcion");
                             CargarCampos();
 
                         }
@@ -96,7 +96,7 @@ namespace Desafio
                 else
                 {
 
-                    Messages.Show("Por favor colque el numero de documento correctamente", "warning");
+                    Messages.ShowConfirmation("Por favor colque el numero de documento correctamente", "warning");
                     LimpiarCampos();
 
 
@@ -104,7 +104,7 @@ namespace Desafio
             }
             else
             {
-                Messages.Show("Por favor cargue los campos", "error");
+                Messages.ShowConfirmation("Por favor cargue los campos", "error");
 
                 LimpiarCampos();
 
